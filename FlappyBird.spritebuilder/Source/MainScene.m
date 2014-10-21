@@ -218,7 +218,7 @@
         [_obstacles removeObject:obstacleToRemove];
     }
     
-    /*
+    
     // loop the bushes
     for (CCNode *bush in _bushes) {
         // get the world position of the bush
@@ -254,9 +254,10 @@
             }
         }
     }
-    */
     
     
+    
+    /*
     // move and loop the bushes
     for(CCNode *bush in _bushes){
         //move the bush
@@ -284,6 +285,8 @@
         }
         
     }
+     */
+    
     
     
     
