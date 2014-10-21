@@ -66,6 +66,7 @@
     _bushes = @[_bush1, _bush2];
     
     
+    /*
     _parallaxBackground = [CCParallaxNode node];
     [_parallaxContainer addChild:_parallaxBackground];
     
@@ -86,6 +87,8 @@
         [_parallaxBackground addChild:cloud z:0 parallaxRatio:_cloudParallaxRatio positionOffset:offset];
         
     }
+    */
+    
     for (CCNode *ground in _grounds) {
         // set collision txpe
         ground.physicsBody.collisionType = @"level";
@@ -215,6 +218,7 @@
         [_obstacles removeObject:obstacleToRemove];
     }
     
+    /*
     // loop the bushes
     for (CCNode *bush in _bushes) {
         // get the world position of the bush
@@ -250,8 +254,9 @@
             }
         }
     }
+    */
     
-    /*
+    
     // move and loop the bushes
     for(CCNode *bush in _bushes){
         //move the bush
@@ -279,7 +284,7 @@
         }
         
     }
-     */
+    
     
     
     
